@@ -28,7 +28,7 @@ int main()
 	getPressure(fd, &pressure);
 
 	printf("BMP180 Sensor Module\n");
-	printf("Temperature\t%0.1f C\n", temperature);
-	printf("Pressure\t%0.2f hPa\n", pressure);
+	printf("Temperature: %0.1f C\n", temperature);
+	printf("Pressure: %0.2f hPa\n", pressure);
 	return 0;
 }

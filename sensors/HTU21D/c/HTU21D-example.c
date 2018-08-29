@@ -28,8 +28,8 @@ int main()
 	
 	// Print temperature and humidity on the screen
 	printf("HTU21D Sensor Module\n");
-	printf("%5.2fC\n", temperature);
-	printf("%5.2f%%rh\n", humidity);
+	printf("Temperature: %5.2fC\n", temperature);
+	printf("Humidity: %5.2f%%rh\n", humidity);
 	
 	return 0;
 }
